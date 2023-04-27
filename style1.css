@@ -1,0 +1,107 @@
+h1{
+    margin: 50px;
+    text-align: center;
+}
+
+h2{
+    font-family: "Roboto Serif";
+    font-size: 70px;
+}
+#map{
+    height: 600px;
+    width: 600px;
+
+}
+body{
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+/*Rajout même background que l'accueil*/
+    background-image: url("img/background-image.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: "Roboto Serif";
+    
+}
+
+.en-tete {
+    background-color: #F8C471;
+    font-family: "Mansalva";
+    gap: 15px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+  
+  .mobile {
+    position: fixed;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    cursor: pointer;
+    background-color: #F8C471;
+    text-align: center;
+  }
+  
+  .desktop {
+    display: none;
+  }
+  
+  .icone-mobile {
+    justify-content: space-around;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 100%;
+  }
+  
+  .icone-nav {
+    border-radius: 5px;
+    background-color: #FADBD8;
+  }
+  
+  /* propriétés pour que le lien hypertexte ne rendent pas les icones bleu
+   et que la ligne du lien ne soit pas là*/
+  .icone-mobile a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .en-tete a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  .en-tete-texte {
+    font-size: 25px;
+  }
+  
+  /* pour que le nom du site et le logo ne soit pas collé aux bords*/
+  .en-tete {
+    padding: 5px;
+  }
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: wheat;
+    height: 70px;
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+  footer ul {
+    /*list-style-type: none;
+    display: flex;
+    justify-content: space-between;*/
+    width: 120%;
+    cursor: pointer;
+    gap: 20px;
+  }
