@@ -25,11 +25,11 @@ body{
 
 p{
     font-family: "sacramento";
-    font-size: 65px;
-    background-color: #E9B3A3;
-    padding: 20px;
-    border-radius: 15px;
+    font-size: 70px;
+    padding: 8px;
+    color: purple;
 }
+
 #map{
     height: 600px;
     width: 600px;
