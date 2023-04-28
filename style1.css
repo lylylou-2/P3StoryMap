@@ -1,39 +1,86 @@
-h1{
-    margin: 50px;
-    text-align: center;
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lavishly+Yours&family=Sacramento&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+  }
+  
+body{
+    /*Rajout même background que l'accueil*/
+        background-image: url("img/background-image.png");
+        font-family: "Roboto Serif";
+        font-size: 20px;
+    }
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
 
-h2{
-    font-family: "Roboto Serif";
-    font-size: 70px;
+p{
+    font-family: "sacramento";
+    font-size: 65px;
+    background-color: #E9B3A3;
+    padding: 20px;
+    border-radius: 15px;
 }
 #map{
     height: 600px;
     width: 600px;
+    position: relative;
+    padding: 50px;
+    margin: auto;
 
 }
-body{
-    height: 100vh;
-    justify-content: center;
-    align-items: center;
-/*Rajout même background que l'accueil*/
-    background-image: url("img/background-image.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    font-family: "Roboto Serif";
-    
-}
+
+
+.connexion{
+    font-size: 20px;
+  }
+  
+.desktop {
+    height: 73px;
+  }
+
+nav {
+    background-color: #E9B3A3;
+    display: flex;
+  }
+  /*Enlever le soulignement du lien hypertexte et enlever la couleur bleu du lien*/
+.desktop a, .footer-desktop a {
+    text-decoration: none;
+    color: black;
+  }
 
 .en-tete {
+    display: none;
+  }
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+.en-tete {
     background-color: #F8C471;
-    font-family: "Mansalva";
+    font-family: "Cookie";
     gap: 15px;
     display: flex;
     justify-content: space-between;
     width: 100%;
   }
   
-  .mobile {
+.mobile {
     position: fixed;
     bottom: 0;
     display: flex;
@@ -43,11 +90,13 @@ body{
     background-color: #F8C471;
     text-align: center;
   }
-  
-  .desktop {
-    display: none;
+  .footer-desktop {
+    display: flex;
+    height: 73px;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
   }
-  
   .icone-mobile {
     justify-content: space-around;
     display: flex;
@@ -56,52 +105,59 @@ body{
     width: 100%;
   }
   
-  .icone-nav {
+.icone-nav {
     border-radius: 5px;
     background-color: #FADBD8;
   }
   
   /* propriétés pour que le lien hypertexte ne rendent pas les icones bleu
    et que la ligne du lien ne soit pas là*/
-  .icone-mobile a {
+.icone-mobile a {
     text-decoration: none;
     color: black;
   }
   
-  .en-tete a {
+.en-tete a {
     text-decoration: none;
     color: black;
   }
   
-  .en-tete-texte {
+.en-tete-texte {
     font-size: 25px;
   }
   
   /* pour que le nom du site et le logo ne soit pas collé aux bords*/
-  .en-tete {
+.en-tete {
     padding: 5px;
   }
-
-*{
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
-
+  
 footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: wheat;
-    height: 70px;
     padding-right: 30px;
     padding-left: 30px;
   }
-  footer ul {
-    /*list-style-type: none;
-    display: flex;
-    justify-content: space-between;*/
+footer ul {
     width: 120%;
     cursor: pointer;
     gap: 20px;
   }
+
+.reseaux {
+    display: flex;
+  }
+
+.reseau {
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+    padding: 10px;
+    border: 2px solid;
+    border-radius: 50px;
+  }
+.mobile {
+    display: none;
+  }
+.en-tete {
+    display: none;
+  }
+/*# sourceMappingURL=main.css.map */

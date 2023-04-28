@@ -1,6 +1,8 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Mansalva&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lavishly+Yours&family=Sacramento&display=swap');
+
 
 * {
   padding: 0;
@@ -12,16 +14,21 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   font-family: "Roboto Serif";
+  font-size: 20px;
 }
 
 .en-tete {
   background-color: #F8C471;
-  font-family: "Mansalva";
+  font-family: "Cookie";
   gap: 15px;
   display: flex;
   justify-content: space-between;
   width: 100%;
 }
+
+.connexion{
+    font-size: 20px;
+  }
 
 .mobile {
   position: fixed;
@@ -72,15 +79,6 @@ body {
   padding: 5px;
 }
 
-.image-accueil {
-  background-image: url(../image/logo-mom.png);
-  display: block;
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
-  padding-top: 1px;
-}
-
 .text-accueil {
   text-align: center;
   font-size: 70px;
@@ -88,19 +86,23 @@ body {
 }
 
 .accueil h1 {
-  text-align: center;
-  width: 90%;
-  padding: 5%;
-  display: block;
-  font-family: "Roboto Serif";
-  font-size: 100%;
+  font-family: "sacramento";
+  font-size: 120%;
+  color:purple;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.accueil img{
+    width: 30%;
 }
 
 .propvaleur {
   text-align: center;
   width: 90%;
   padding: 5%;
-  font-family: "Mansalva";
+  font-family: "sacramento";
   font-size: 70%;
 }
 
@@ -110,10 +112,6 @@ body {
   flex-wrap: wrap;
   width: 40%;
   margin: auto;
-  /*font-family: $police1;*/
-  /*font-size: 30%;*/
-  /*padding: 10px 20px 10px 0px*/
-  /*font-size: ...*/
 }
 
 .button-accueil button {
@@ -123,6 +121,8 @@ body {
   cursor: pointer;
   height: 50px;
   border: 1px solid;
+  font-size: 20px;
+  box-shadow: 10px 5px 5px rosybrown;
 }
 
 .button {
@@ -131,7 +131,8 @@ body {
 }
 
 .button-accueil button:hover {
-  background: linear-gradient(45deg, rgb(223, 140, 226) 0%, rgb(235, 184, 81) 100%);
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
 }
 
 .info-accueil {
@@ -167,10 +168,23 @@ body {
   box-shadow: 10px 5px 5px rosybrown;
 }
 
+.telecharge a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .decouvre a{
+    text-decoration: none;
+    color: black;
+  }
+
 @media screen and (max-width: 425px) {
-  /*.text-accueil{
+   .text-accueil{
       display: flex;
-      justify-content: center;*/
+      justify-content: center;
+      flex-wrap: wrap;
+   }
+
   .image-accueil {
     background-image: url(../image/logo-mom.png);
     background-position: center;
@@ -199,12 +213,17 @@ body {
     justify-content: space-evenly;
     width: 100%;
   }
+
+  .telecharge a{
+    text-decoration: none;
+    color: black;
+  }
+
+  .decouvre a{
+    text-decoration: none;
+    color: black;
+  }
 }
-/*h1 {
-  text-align: center;
-  font-family: "Mansalva";
-  margin: 30px;
-}*/
 
 .login-section {
   background-color: #fff;
@@ -244,9 +263,6 @@ body {
     height: 500px;
     gap: 45px;
   }
-  /*h1 {
-    font-size: 40px;
-  }*/
 
   .login-nom, .login-prenom, .login-email, .login-date, .login-lien-partenaire {
     font-size: 20px;
@@ -474,9 +490,6 @@ background sera trop clair et on ne verra plus très bien les icones*/
 .section-partenaire h2, .section-partenaire h3 {
   font-family: "Mansalva";
   font-size: 20px;
-  /*option*/
-  /*color: #fff;
-  background: linear-gradient(45deg, rgba(223,140,226,1) 0%, rgba(235,184,81,1) 100%);*/
 }
 
 .article-partenaire img {
@@ -581,7 +594,7 @@ background sera trop clair et on ne verra plus très bien les icones*/
     width: 80%;/*width: 60px*/
     margin: auto;
     gap: 160px;
-    /*justify-content: space around*/
+    
   }
   .bebe-partenaire {
     display: flex;
@@ -636,18 +649,11 @@ background sera trop clair et on ne verra plus très bien les icones*/
     justify-content: right;
   }
   footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     background-color: wheat;
-    height: 70px;
     padding-right: 30px;
     padding-left: 30px;
   }
   footer ul {
-    /*list-style-type: none;
-    display: flex;
-    justify-content: space-between;*/
     width: 120%;
     cursor: pointer;
     gap: 20px;
