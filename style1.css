@@ -4,14 +4,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Lavishly+Yours&family=Sacramento&display=swap');
 
 * {
-    padding: 0;
-    margin: 0;
+   margin: 0;
   }
   
 body{
     /*Rajout même background que l'accueil*/
         background-image: url("img/background-image.png");
-        font-family: "Roboto Serif";
+        font-family: "roboto";
         font-size: 20px;
     }
 
@@ -22,13 +21,67 @@ body{
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
-p{
+.title{
     font-family: "sacramento";
-    font-size: 70px;
-    padding: 8px;
+    font-size: 60px;
     color: purple;
 }
+
+.title-modal{
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+p{
+    font-family: "cookie";
+    font-size: 30px;
+    color: purple;
+    
+}
+
+.bouton{
+    display: flex;
+    margin: 15px;
+    justify-content: center;
+    gap: 70px;
+    cursor: pointer;
+    font-family: "cookie";
+    
+}
+
+.button:hover {
+    background: rgb(238, 174, 202);
+    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
+  } 
+
+#choix{
+    width: 100px;
+    height: 35px;
+    background-color: floralwhite;
+    border: 1px solid;
+    border-radius: 10px;
+    font-size: 25px;
+    font-family: "cookie";
+    color: purple;
+  }
+
+#modal{
+    width: 35%;
+    height: 75%;
+    border-radius: 20px;
+    background-image: url("img/background-image.png");
+    border: 1px solid;
+}
+
+input[type=text], textarea {
+    width: 95%;
+    padding: 15px 20px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: floralwhite;
+  }
 
 #map{
     height: 600px;
@@ -37,6 +90,13 @@ p{
     padding: 50px;
     margin: auto;
 
+}
+
+.popup{
+    position: relative;
+    height: 30px;
+    width: 250px;
+    border: 1px solid;
 }
 
 
@@ -90,14 +150,14 @@ ul {
     background-color: #F8C471;
     text-align: center;
   }
-  .footer-desktop {
+.footer-desktop {
     display: flex;
     height: 73px;
     align-items: center;
     justify-content: space-between;
     margin-top: 20px;
   }
-  .icone-mobile {
+.icone-mobile {
     justify-content: space-around;
     display: flex;
     flex-wrap: wrap;
