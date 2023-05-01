@@ -29,7 +29,9 @@ body{
 
 .title-modal{
     font-size: 40px;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
+    font-family: "sacramento";
+    color: purple;
 }
 
 p{
@@ -41,22 +43,14 @@ p{
 
 .bouton{
     display: flex;
-    margin: 15px;
     justify-content: center;
-    gap: 70px;
-    cursor: pointer;
-    font-family: "cookie";
+    gap: 50px;
     
 }
 
-.button:hover {
-    background: rgb(238, 174, 202);
-    background: radial-gradient(circle, rgb(238, 174, 202) 0%, rgb(148, 187, 233) 100%);
-  } 
-
 #choix{
     width: 100px;
-    height: 35px;
+    height: 30px;
     background-color: floralwhite;
     border: 1px solid;
     border-radius: 10px;
@@ -73,7 +67,7 @@ p{
     border: 1px solid;
 }
 
-input[type=text], textarea {
+#date{
     width: 95%;
     padding: 15px 20px;
     box-sizing: border-box;
@@ -81,7 +75,19 @@ input[type=text], textarea {
     border-radius: 5px;
     margin-left: 10px;
     background-color: floralwhite;
-  }
+}
+
+
+
+input[type=text], textarea {
+    width: 95%;
+    padding: 15px 15px;
+    box-sizing: border-box;
+    border: 1px solid;
+    border-radius: 5px;
+    margin-left: 10px;
+    background-color: floralwhite;
+}
 
 #map{
     height: 600px;
@@ -94,10 +100,10 @@ input[type=text], textarea {
 
 .popup{
     position: relative;
-    height: 30px;
+    height: 20px;
     width: 250px;
     border: 1px solid;
-}
+} 
 
 
 .connexion{
