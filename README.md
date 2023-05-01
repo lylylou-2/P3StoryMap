@@ -1,6 +1,8 @@
 # P3StoryMap
 Map intéractive de Bloom in Two, Our story.
+
 Welcome! 👋
+
 Pour relever cet exercice, vous devez avoir des connaissances de base en HTML, CSS, JAVASCRIPT. 
 Vous devez aussi utliser l'API de Leaflet.
 
