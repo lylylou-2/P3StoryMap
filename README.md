@@ -7,6 +7,7 @@ Pour relever cet exercice, vous devez avoir des connaissances de base en HTML, C
 Vous devez aussi utliser l'API de Leaflet.
 
 L'exercice
+
 Votre exercice est de construire une Story Map où les utilisateurs pourront l'utiliser comme ils le souhaitent.
 
 Vos utilisateurs devraient être en mesure de :
@@ -14,10 +15,13 @@ Vos utilisateurs devraient être en mesure de :
 -Afficher un marqueur et de pouvoir entrer les données qu'ils souhaitent
 
 Où tout trouver
+
 Votre tâche consiste à élaborer le projet à partir de ce projet: https://github.com/Habibata-Doucoure/Future-Moms
+
 Vou pouvez aussi au préalable regarder ce tuto https://www.youtube.com/watch?v=L7wV-W_0nfY
 
 Construction de votre projet
+
 N'hésitez pas à utiliser le flux de travail qui vous convient. Vous trouverez ci-dessous une suggestion de processus, mais ne vous sentez pas obligé de suivre ces étapes :
 
 Utiliser la ressource que vous voulez pour écrire votre code, vous y ouvrirez un dossier "Story Map Bloom In Two", avec 3 fichiers 2 HTML et 2 CSS.
@@ -32,6 +36,7 @@ Déployer votre projet
 Comme mentionné ci-dessus, il existe de nombreuses façons d'héberger votre projet gratuitement. Nous recommandons l'hébergement suivant :
 
 Pages GitHub
+
 Soumettre votre code
 Soumettez votre solution via le formulaire suivant : "Je dépose mes repos"
 
