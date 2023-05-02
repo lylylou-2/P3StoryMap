@@ -12,31 +12,34 @@ Votre exercice est de construire une Story Map où les utilisateurs pourront l'u
 
 Vos utilisateurs devraient être en mesure de :
 
--Afficher un marqueur et de pouvoir entrer les données qu'ils souhaitent
+- afficher un marqueur et valider 
+- rentrer les données qu'ils souhaitent
+- supprimer le marqueur
 
-Où tout trouver
+Vous pouvez trouver les ressources nécessaires ci-dessous. 
 
 Votre tâche consiste à élaborer le projet à partir de ce projet: https://github.com/Habibata-Doucoure/Future-Moms
 
-Vou pouvez aussi au préalable regarder ce tuto https://www.youtube.com/watch?v=L7wV-W_0nfY
+Vous pouvez aussi au préalable regarder ce tuto https://www.youtube.com/watch?v=L7wV-W_0nfY
 
 Construction de votre projet
 
-N'hésitez pas à utiliser le flux de travail qui vous convient. Vous trouverez ci-dessous une suggestion de processus, mais ne vous sentez pas obligé de suivre ces étapes :
+N'hésitez pas à utiliser le flux de travail qui vous convient. 
+Vous trouverez ci-dessous une suggestion de processus, mais ne vous sentez pas obligé de suivre ces étapes :
 
-Utiliser la ressource que vous voulez pour écrire votre code, vous y ouvrirez un dossier "Story Map Bloom In Two", avec 3 fichiers 2 HTML et 2 CSS.
+- Utiliser la ressource que vous voulez pour écrire votre code, vous y ouvrirez un dossier "Story Map Bloom In Two", avec 3 fichiers 2 HTML et 2 CSS.
 
-Récupérer la page d'accueil du projet ci-dessus.
+- Récupérer la page d'accueil du projet ci-dessus.
 
-Vous créez un lien pour la story map.
+- Vous créez un lien pour la story map.
 
-Dans votre fichier leaflet.js (ou nom de votre choix) vous irez sur l'api de leaflet pour récupérer la map et suivez les instructions du "Leaflet Quick Start Guide".
+- Dans votre fichier leaflet.js (ou nom de votre choix) vous irez sur l'api de leaflet pour récupérer la map et suivez les instructions du "Leaflet Quick Start Guide".
 
-Vous pouvez télécharger vos icônes et personnaliser vos épingles.
+- Vous pouvez télécharger vos icônes et personnaliser vos épingles.
 
-Un popup devra s'afficher avec les détails mis par les utilisateurs et qui sera stockés dans le stockage local.
+- Un popup devra s'afficher avec les détails mis par les utilisateurs et qui sera stockés dans le stockage local.
 
-Initialisez votre projet en tant que dépôt public sur GitHub. La création d'un dépôt facilitera le partage de votre code avec la communauté si vous avez besoin d'aide. 
+- Initialisez votre projet en tant que dépôt public sur GitHub. La création d'un dépôt facilitera le partage de votre code avec la communauté si vous avez besoin d'aide. 
 
 Si vous n'êtes pas sûr de savoir comment procéder, lisez attentivement cette ressource Essayer Git.
 
