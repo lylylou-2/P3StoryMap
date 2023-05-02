@@ -29,23 +29,31 @@
     </nav>
      <div class="container">
             <p class="title">Our Story Map</p>
+            <button class="share"><a href="http://www.example.com">SHARE</a></button>
     </div>
                 <dialog id="modal">
                     <p class="title-modal">Ajouter un nouveau marker </p>
                     <form id="form" method="dialog">
                         <p>
-                            <label>Titre 
+                            <label> Titre 
                                 <input type="text" id="titre" />
                             </label>
                         </p>
                         <p>
-                            <label>Date 
+                            <label> Date 
                                 <input type="date" id="date" />
                             </label>
                         </p>
                         <p>
-                            <label>Image 
-                                <input type="text" id="image" />
+                            <label> Image 
+                                <input type="file" id="image">
+                            </label>
+                        </p>
+                        <p>
+                            <label> Vidéo
+                                <video controls width="250">
+                                    <input type="file">
+                                </video>
                             </label>
                         </p>
                         <p>
@@ -63,14 +71,12 @@
                 </dialog>
      <div id="map"></div>
      <footer class="footer-desktop">
-        <div class="rgpd">
             <ul class="footerList">
                 <li><a href="https://www.example.com">Contact</a></li>
                 <li><a href="https://www.example.com">FAQ</a></li>
                 <li><a href="https://www.example.com">Mentions légales</a></li>
                 <li><a href="https://www.example.com">Politique de confidentialité</a></li>
             </ul>
-        </div>
 
     <div class="reseaux">
         <ul>
