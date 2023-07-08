@@ -1,16 +1,16 @@
-# P3StoryMap
+# P3 StoryMap
 Map intéractive de Bloom in Two, Our story.
 
-Welcome! 👋
+# Welcome! 👋
 
 Pour relever cet exercice, vous devez avoir des connaissances de base en HTML, CSS, JAVASCRIPT. 
 Vous devez aussi utliser l'API de Leaflet.
 
-L'exercice
+# L'exercice
 
 Votre exercice est de construire une Story Map où les utilisateurs pourront l'utiliser comme ils le souhaitent.
 
-Vos utilisateurs devraient être en mesure de :
+# Vos utilisateurs devraient être en mesure de :
 
 - afficher un marqueur et valider 
 - rentrer les données qu'ils souhaitent
@@ -22,7 +22,7 @@ Votre tâche consiste à élaborer le projet à partir de ce projet: https://git
 
 Vous pouvez aussi au préalable regarder ce tuto https://www.youtube.com/watch?v=L7wV-W_0nfY
 
-Construction de votre projet
+# Construction de votre projet
 
 N'hésitez pas à utiliser le flux de travail qui vous convient. 
 Vous trouverez ci-dessous une suggestion de processus, mais ne vous sentez pas obligé de suivre ces étapes :
